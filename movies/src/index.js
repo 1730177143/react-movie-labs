@@ -11,7 +11,6 @@ const App = () => {
         <Route path="/movies/:id" element={<MoviePage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={ <Navigate to="/" /> } />
-        <Route path="/movies/:id" element={<MoviePage />} />
       </Routes>
     </BrowserRouter>
   );
