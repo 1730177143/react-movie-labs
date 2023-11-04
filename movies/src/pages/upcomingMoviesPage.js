@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import PageTemplate from '../components/templateMovieListPage'
 import { getUpcoming } from "../api/tmdb-api";
 import Spinner from '../components/spinner';
 import { useQuery } from 'react-query';
-import AddToFavoritesIcon from '../components/cardIcons/addToFavorites'
 import AddToPlaylistIcon from '../components/cardIcons/playlistAdd'
 
 const UpcomingMoviesPage = (props) => {
